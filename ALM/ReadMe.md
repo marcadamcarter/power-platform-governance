@@ -53,13 +53,13 @@ This section provides information about the various scenarios that will help you
 
 The scenarios range from people who are new to Microsoft Power Platform to existing users practicing unhealthy ALM, and show how you can move to a recommended, successful ALM implementation. 
 
-  - [Scenario 0: ALM for a new project](ALM/new-project-alm.md)
-  - [Scenario 1: Citizen development ALM](ALM/citizen-dev-alm.md)
-  - [Scenario 2: Moving from a single environment](ALM/move-from-single-env-alm.md)
-  - [Scenario 3: Moving from unmanaged to managed solutions](ALM/move-from-unmanaged-managed-alm.md)
+  - [Scenario 0: ALM for a new project](new-project-alm.md)
+  - [Scenario 1: Citizen development ALM](citizen-dev-alm.md)
+  - [Scenario 2: Moving from a single environment](move-from-single-env-alm.md)
+  - [Scenario 3: Moving from unmanaged to managed solutions](move-from-unmanaged-managed-alm.md)
   - [Scenario 4: Use DevOps for automation](https://learn.microsoft.com/en-us/power-platform/alm/use-devops-automated-alm)
-  - [Scenario 5: Support team development](ALM/team-development-alm.md)
-  - [Scenario 6: Embrace citizen developers](ALM/embrace-citizen-devs.md)
+  - [Scenario 5: Support team development](team-development-alm.md)
+  - [Scenario 6: Embrace citizen developers](embrace-citizen-devs.md)
   - [Scenario 7: Add canvas apps in solutions by default](https://learn.microsoft.com/en-us/power-platform/alm/canvas-apps-solution-default)
 
 ## References
