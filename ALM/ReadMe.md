@@ -46,7 +46,7 @@ The publisher of a solution where a component is created is considered the owner
 
 ### Solution publisher prefix
 A solution publisher includes a prefix. The publisher prefix is a mechanism to help avoid naming collisions. This allows for solutions from different publishers to be installed in an environment with few conflicts. For example, the Contoso solution displayed here includes a solution publisher prefix of *contoso*.  
-<img src="media/publisher-prefix-example.png" alt="publisher prefix example" width="60%"/>
+![publisher prefix example](/media/publisher-prefix-example.png)
 
 ### ALM Scenarios
 This section provides information about the various scenarios that will help you reach the end goal of implementing and practicing healthy application lifecycle management (ALM) by using Power Apps, Power Automate, and Microsoft Dataverse in your organization. 
