@@ -48,6 +48,21 @@ The publisher of a solution where a component is created is considered the owner
 A solution publisher includes a prefix. The publisher prefix is a mechanism to help avoid naming collisions. This allows for solutions from different publishers to be installed in an environment with few conflicts. For example, the Contoso solution displayed here includes a solution publisher prefix of *contoso*.  
 <img src="media/publisher-prefix-example.png" alt="publisher prefix example" width="60%"/>
 
+### ALM Scenarios
+This section provides information about the various scenarios that will help you reach the end goal of implementing and practicing healthy application lifecycle management (ALM) by using Power Apps, Power Automate, and Microsoft Dataverse in your organization. 
+
+The scenarios range from people who are new to Microsoft Power Platform to existing users practicing unhealthy ALM, and show how you can move to a recommended, successful ALM implementation. 
+
+  - [Scenario 0: ALM for a new project](ALM/new-project-alm.md)
+  - [Scenario 1: Citizen development ALM](ALM/citizen-dev-alm.md)
+  - [Scenario 2: Moving from a single environment](ALM/move-from-single-env-alm.md)
+  - [Scenario 3: Moving from unmanaged to managed solutions](ALM/move-from-unmanaged-managed-alm.md)
+  - [Scenario 4: Use DevOps for automation](https://learn.microsoft.com/en-us/power-platform/alm/use-devops-automated-alm)
+  - [Scenario 5: Support team development](ALM/team-development-alm.md)
+  - [Scenario 6: Embrace citizen developers](ALM/embrace-citizen-devs.md)
+  - [Scenario 7: Add canvas apps in solutions by default](https://learn.microsoft.com/en-us/power-platform/alm/canvas-apps-solution-default)
+
 ## References
   - [https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm](https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm)
   - [https://microsoft.github.io/Low-Code/blog/2023-day20#power-platform-and-application-lifecycle-management](https://microsoft.github.io/Low-Code/blog/2023-day20#power-platform-and-application-lifecycle-management)
+  - [https://learn.microsoft.com/en-us/power-platform/alm/implement-healthy-alm](https://learn.microsoft.com/en-us/power-platform/alm/implement-healthy-alm)
