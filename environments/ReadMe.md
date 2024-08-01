@@ -1,7 +1,7 @@
 # Environments
 Power Platform environments are spaces where you can store, manage, and share your organization's business data, apps, chatbots, and flows. Each environment type serves a specific purpose, helping organizations manage their applications and data effectively. Below are the different types of Power Platform environments:  
 
-[See Environment Strategies](/environments/environment-strategies.md)
+[See Environment Strategies](/environments/environment-strategies.md) and [AMC Environment Scenarios](environment-strategies.md#scenario-1-standardized-developer-sandbox-and-production-environments-at-each-msc-and-subordinate-unit)
 
 |Type|Creator|Dataverse Instance|Security|
 |----|-------|------------------|--------|
