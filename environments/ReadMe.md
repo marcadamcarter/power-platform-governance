@@ -1,6 +1,6 @@
 # Environments
 Power Platform environments are spaces where you can store, manage, and share your organization's business data, apps, chatbots, and flows. Each environment type serves a specific purpose, helping organizations manage their applications and data effectively. Below are the different types of Power Platform environments:  
-Reference: https://learn.microsoft.com/en-us/power-platform/admin/environments-overview#power-platform-environment-types   
+
 |Type|Creator|Dataverse Instance|Security|
 |----|-------|------------------|--------|
 |**Default**|Auto-created|Mandatory|Limited control. All licensed users have the environment maker role.|
@@ -23,7 +23,7 @@ Reference: https://learn.microsoft.com/en-us/power-platform/admin/environments-o
 
 ## Developer Environment:
    - **Description**: Personal environment for individual developers. Intended only for use by the owner and **cannot be shared with other users**.
-   - **Use Case**: Ideal for building and testing apps in isolation before moving them to a shared environment.
+   - **Use Case**: Ideal for building and testing apps in isolation before moving them to a shared environment. Development environments should be single-purpose, disposable, and easily recreated.  
 
 ## Trial Environment:
    - **Description**: |**Trial**|Licensed user, subject to tenant-level settings|Optional|Full control.|
@@ -38,4 +38,9 @@ You may decide that your customization work developed and tested on a sandbox en
 - Production to sandbox  
 - Sandbox to production  
 
-Reference: https://learn.microsoft.com/en-us/power-platform/admin/switch-environment
+## White papers
+  - [Develop a tenant environment strategy to adopt Power Platform at scale (microsoft.com)](https://learn.microsoft.com/en-us/power-platform/guidance/white-papers/environment-strategy)
+  - [Enterprise security with Power Platform (microsoft.com)](https://learn.microsoft.com/en-us/power-platform/guidance/white-papers/enterprise-security)
+## References
+  - [https://learn.microsoft.com/en-us/power-platform/admin/switch-environment](https://learn.microsoft.com/en-us/power-platform/admin/switch-environment)
+  - [https://learn.microsoft.com/en-us/power-platform/admin/environments-overview#power-platform-environment-types](https://learn.microsoft.com/en-us/power-platform/admin/environments-overview#power-platform-environment-types)
