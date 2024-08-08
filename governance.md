@@ -154,24 +154,31 @@ Solutions can consist of any single Power Platform capability or a complex mixtu
 resources toward solutions.  An Innovation Factory Power App, developed and sustained by the AMC G-6, supports the overarching Innovation Factory process. 
 3.	The Innovation Factory Center of Excellence aligns resources to solutions, choosing the right technology stack for the solution and aligning engineering support to the outcome. 
 4.	Azure DevOps, or a like source code/project management solution, enables the inner-source movement within AMC.  The platform supports transparent project management, the ability to manage work items (requirements, user stories, issues), user feature requests, and integrates documentation.  For advanced Power Platform developers and professional development projects, the platform supports modern software development practices like continuous integration/delivery, software supply chain management, DevSecOps, and Continuous ATO. 
-Premium Capacity Environments 
-License Requests 
-Update Identification Card Online (IDCO) 
+
+# Premium Capacity Environments 
+
+## License Requests 
+
+### Update Identification Card Online (IDCO) 
 Entitlement Managers (EMs) and any user seeking any A365 entitlements must ensure their information is entered and correct within the IDCO system according to your closest Chain of Command (CoC). AMC currently has 10,000 Premium Maker Licenses available to distribute proportionately across the Command with the remaining 140,000 licenses needed for end users to use and consume premium capacity solutions. Careful management of the distribution of these licenses is crucial to the success of AMC’s innovation strategy. 
   - Proceed to: https://idco.dmdc.osd.mil/idco/ 
   - Use the “My Profile” feature to update user information o Duty Sub Organization o Duty Installation Location o Office Symbol 
-Identifying Organization Entitlement Managers 
+
+### Identifying Organization Entitlement Managers 
 Use the following procedure to identify an organization’s EM 
   - Proceed to: https://portal.apps.deas.mil/ 
   - Use the Login link to perform a Common Access Card login 
-  - Select “My Self-Service” from the navigation menu o Select “My GM/EM Contacts” 
-  - Enter the user’s duty location within the “Duty Location” field to filter the GM/EM contacts to that location 
-  - Verify the display name of a GM/EM contains the user’s command name 
-Contact the Organization Entitlement Manager 
+  - Select “My Self-Service” from the navigation menu 
+    - Select “My GM/EM Contacts” 
+    - Enter the user’s duty location within the “Duty Location” field to filter the GM/EM contacts to that location  
+    - Verify the display name of a GM/EM contains the user’s command name 
+
+### Contact the Organization Entitlement Manager 
 Each organization’s Entitlement Manager can issue A365 entitlements from a pool of licenses provisioned by the Group Manager (GM). 
   - Provide the type of license required 
   - Provide the Command business need 
-Security Enabled A365 Groups 
+
+## Security Enabled A365 Groups 
 Managing and accessing premium capacity services requires the use of Security enabled A365 groups. The Security Enabled Flag is only applied through the Microsoft Entra ID Azure tool that is only accessible by NETCOM Tenant and Global Administrators. 
   - Create an A365 group using Outlook and adhering to AMC naming conventions 
   - Submit an AESMP ticket by proceeding to: https://www.aesmp.army.mil/ 
@@ -180,31 +187,37 @@ Managing and accessing premium capacity services requires the use of Security en
   - Select “M365 Group” as the “Category” 
   - Select “M365 Group” – Other as the “Subcategory” 
   - Provide the exact group names in the “Comment” field along with a statement of “Please add the Security Enabled flag to the listed M365 groups” 
-Requesting Environments 
+
+## Requesting Environments 
 The requesting organization must provide a security enabled A365 group for the PCE administrators when requesting an environment and maker licenses must be assigned to every member of the provided PCE administrator group. The default set of PCEs provided will consist of Developer, Test, and 
 Production environments. Additional environments require justification to both the Command Premium Capacity Manager and Major Command Level Administrator (MCLA).  
   - Environments must have approval from the requesting organization’s Chief Information Officer with justification in memorandum 
-  - Initiate a request by emailing the AMC MCLA Team: army365-mcla-amc@army.mil  o The request must include: 
-	CIO Environment request approval  
-	Provide the desired premium capacity environment (PCE) name within the request. Environments must match the AMC naming convention replacing or omitting sub-command where applicable. Additional, unique, environments will have a succinct but descriptive name that clearly associates the environment to the purpose or solution 
-	Estimated storage capacity needed 
-	The security enabled PCE administrator group 
-	The security enabled PCE user group 
-Managing Environments 
+  - Initiate a request by emailing the AMC MCLA Team: army365-mcla-amc@army.mil  
+    - The request must include: 
+      - CIO Environment request approval  
+      - Provide the desired premium capacity environment (PCE) name within the request. Environments must match the AMC naming convention replacing or omitting sub-command where applicable. Additional, unique, environments will have a succinct but descriptive name that clearly associates the environment to the purpose or solution 
+      - Estimated storage capacity needed 
+      - The security enabled PCE administrator group 
+      - The security enabled PCE user group 
+
+## Managing Environments 
 Dataverse security is another area that has a steep learning curve. Be prepared to spend time reading up on Microsoft Learn and other resources and then develop your security plan before starting to add business units, teams, and roles to your Premium Environment. 
   - Familiarize administrators with Dataverse Security: https://learn.microsoft.com/en-us/powerplatform/admin/wp-security  
-  - The AMC PCE is for Command Apps that solve AMC problems and move AMC towards achieving innovative goals o Solutions should not consume Premium Capacity if the core focus does not contribute to the conditions listed for solution registration  
-  - Consider that AMC Premium Capacity storage is pooled at the Army tenant level with other 
-MACOMs and other AMC Major Subordinate Commands o It is incumbent upon AMC organizations to be conservative and good stewards with data consumption 
-  - Delete deprecated solutions and Dataverse tables where applicable to release capacity back to the AMC environments 
-  - Select minimum capacities for environments as AMC PCE Administrators can increase  those capacities when necessary 
-  - Do not create excessive numbers of tables compared to the actual need of a requirement 
-  - Do not build solutions in an AMC PCE that are better suited to leverage MS Teams 
-Dataverse capacity o Do not build solutions in an AMC PCE that are better suited to leverage SharePoint lists and libraries for unique, local, singular staff processes 
-Developer Environments 
+  - The AMC PCE is for Command Apps that solve AMC problems and move AMC towards achieving innovative goals 
+    - Solutions should not consume Premium Capacity if the core focus does not contribute to the conditions listed for solution registration  
+  - Consider that AMC Premium Capacity storage is pooled at the Army tenant level with other MACOMs and other AMC Major Subordinate Commands 
+    - It is incumbent upon AMC organizations to be conservative and good stewards with data consumption 
+    - Delete deprecated solutions and Dataverse tables where applicable to release capacity back to the AMC environments 
+    - Select minimum capacities for environments as AMC PCE Administrators can increase  those capacities when necessary 
+    - Do not create excessive numbers of tables compared to the actual need of a requirement 
+    - Do not build solutions in an AMC PCE that are better suited to leverage MS Teams Dataverse capacity 
+    - Do not build solutions in an AMC PCE that are better suited to leverage SharePoint lists and libraries for unique, local, singular staff processes 
+
+## Developer Environments 
 The developer environment is where solutions are initially built by an organization and checked for feasibility of use. Not all solutions will proceed past the developer stage. Administrators should release those resources upon determination of adoption accordingly. 
-Test Environments 
+
+## Test Environments 
 The test environment is where developers should test changes and refined versions of developed solutions while only interacting with non-production data and invited test users. 
-Production Environments 
+
+## Production Environments 
 The production environments are for fully developed and refined solutions that will connect to, consume, or manipulate live production data. The solutions and data are available to real world Army processes and impact Army operations. 
- 
